@@ -9,4 +9,14 @@ public interface NoticeService {
 	List<NoticeDTO> list(Map map);
 
 	int total(Map map);
+
+	NoticeDTO read(int noticeno);
+
+	int passwd(Map map);
+
+	int update(NoticeDTO noticeDTO);
+
+	int delete(int noticeno);
+
+	void upCnt(int noticeno);
 }
